@@ -42,7 +42,7 @@ class ScrollBar:
         self.listbox.config(xscrollcommand=self.xscrollbar.set)
         
         
-        
+        self.root.title("Vertical and Horizontal Scrollbar")
         
         tk.mainloop()
         
